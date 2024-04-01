@@ -1,0 +1,50 @@
+.event-name{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 0 10px 10px;
+}
+
+.date__event-detail{
+    padding: 0 0 10px 10px;
+}
+
+.hr__event-detail{
+    width: 100%;
+    border-bottom: 15px solid #e1e1e1;
+}
+
+/* Áp dụng padding giữa các section */
+.event-content .section:first-child {
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 18px; /* Hoặc bất kỳ giá trị nào bạn muốn */
+}
+
+.event-content .section {
+    padding-bottom: 18px;
+    font-size: 14px;
+}
+
+/* Hiển thị hình ảnh ở cuối cùng nếu số section ít hơn 4 */
+.event-content .section:last-child {
+    padding-bottom: 25px;
+}
+
+.e-img{
+    padding: 30px 150px;
+}
+
+.e-img img{
+    width: 100%;
+    height: auto; /* Đảm bảo tỷ lệ khung hình không bị biến đổi */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.source__event-details
+{
+    float: right;
+    font-size: 16px;
+    font-style: italic;
+}
